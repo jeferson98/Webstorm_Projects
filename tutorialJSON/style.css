@@ -1,0 +1,46 @@
+#btn{
+    background: mediumseagreen;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#btn:hover{
+    background: gray ;
+}
+.button{
+    display: inline;
+    width: 100%;
+}
+#text{
+    border: 1px solid gray;
+    padding: 9px 20px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 'myArea myArea myArea';
+
+}
+.image{
+    border: 1px solid rgba(106, 108, 118, 0.51);
+    margin: 2rem auto;
+}
+.img{
+    grid-area: myArea;
+    width: 100%;
+
+}
+.description{
+    grid-area: des;
+    width: 250px;
+    color: #66696e;
+    padding: 5px 15px;
+}
+.title{
+    padding:10px;
+    grid-area: uno;
+    height: 15px;
+    width:250px;
+    overflow: hidden;
+    color: mediumseagreen;
+}

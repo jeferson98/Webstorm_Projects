@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js" ></script>
+    <title>Practica DOM</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="cabecera">
+                <div class="title">
+                    <h2 class="item-lister">Item Lister</h2>
+                </div>
+                <div class="buscador">
+                    <input type="search" class="search" id="search" placeholder="Search items...">
+                </div>
+        </header>
+        <div class="all-items">
+        <form action="" method="post" class="add-items">
+            <h2 class="agregar">Add Items</h2>
+            <input type="text" id="name-item" >
+            <input type="button" value="Submit" class="btn" id="boton">
+            <h2 class="title-list">Items</h2>
+            <ul id="list-items">
+                <li class="item"><span class="contenido">Item 1</span><span class="delete"> x </span> </li>
+                <li class="item"><span class="contenido">Item 2</span><span class="delete"> x </span> </li>
+                <li class="item"><span class="contenido">Item 3</span><span class="delete"> x </span> </li>
+                <li class="item"><span class="contenido">Item 4</span><span class="delete"> x </span> </li>
+            </ul>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

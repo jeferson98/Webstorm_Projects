@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+}
+.cabecera{
+    background: #009B50;
+    padding: 1vh 3vh;
+}
+.cabecera h2{
+    padding: 0 2vh;
+}
+.title{
+    color: #ffffff;
+    display: inline-block;
+}
+.buscador{
+    display: inline-block;
+    position: absolute;
+    right: 5vh;
+    top: 5vh;
+    width: 80vh;
+}
+.search{
+    width: 80%;
+    height: 5vh;
+}
+.add-items{
+    border: 1px solid rgba(86, 86, 88, 0.3);
+    height: auto;
+    width: 60%;
+    padding: 5vh;
+    margin: 5vh;
+}
+.agregar{
+    margin-top: 0;
+}
+.item{
+    list-style: none;
+    padding: 1vh 2vh;
+    border: 1px solid rgba(86, 86, 88, 0.3);
+    margin-top: -1px;
+    width: 60%;
+}
+.btn{
+    background: #1d2128;
+    color: #ffffff;
+    padding: 1vh 2vh;
+    border: none;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+ li .delete{
+    position: absolute;
+    left: 40%;
+    background: red;
+    color: #000;
+     cursor: pointer;
+
+}
+input[tyoe="text"]{
+    height: 2vh ;
+}
